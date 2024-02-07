@@ -5,7 +5,9 @@ public class Player {
     public Player(int index){
         this.index = index;
     }
-    public Player(){
 
+    public int tryNum(){
+        int randomNum = (int) (Math.random() * 99 + 1);
+        return randomNum;
     }
 }
